@@ -1,4 +1,9 @@
 function printNext(player, cards) {
-    console.log(cards);
-    document.getElementById(player).innerHTML = JSON.stringify(cards[0].value);
+    if (cards[0]){
+        const element = document.getElementById(player)
+        element.removeAttribute("class");
+        element.classList.add(`card`);
+        element.classList.add(`${cards[0].symbol}`);
+        element.classList.add(`${cards[0].high}`);
+    }
 }

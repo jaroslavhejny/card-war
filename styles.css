@@ -1,3 +1,165 @@
-.players{
+.players {
     display: grid;
+}
+
+.card {
+  width: 100px;
+  height: calc(100px * 324 / 223);
+  background-size: contain;
+}
+.spades.two {
+  background-image: url(./img/spades/two.svg);
+}
+.diamonds.two {
+  background-image: url(./img/diamonds/two.svg);
+}
+.clubs.two {
+  background-image: url(./img/clubs/two.svg);
+}
+.hearts.two {
+  background-image: url(./img/hearts/two.svg);
+}
+.spades.three {
+  background-image: url(./img/spades/three.svg);
+}
+.diamonds.three {
+  background-image: url(./img/diamonds/three.svg);
+}
+.clubs.three {
+  background-image: url(./img/clubs/three.svg);
+}
+.hearts.three {
+  background-image: url(./img/hearts/three.svg);
+}
+.spades.four {
+  background-image: url(./img/spades/four.svg);
+}
+.diamonds.four {
+  background-image: url(./img/diamonds/four.svg);
+}
+.clubs.four {
+  background-image: url(./img/clubs/four.svg);
+}
+.hearts.four {
+  background-image: url(./img/hearts/four.svg);
+}
+.spades.five {
+  background-image: url(./img/spades/five.svg);
+}
+.diamonds.five {
+  background-image: url(./img/diamonds/five.svg);
+}
+.clubs.five {
+  background-image: url(./img/clubs/five.svg);
+}
+.hearts.five {
+  background-image: url(./img/hearts/five.svg);
+}
+.spades.six {
+  background-image: url(./img/spades/six.svg);
+}
+.diamonds.six {
+  background-image: url(./img/diamonds/six.svg);
+}
+.clubs.six {
+  background-image: url(./img/clubs/six.svg);
+}
+.hearts.six {
+  background-image: url(./img/hearts/six.svg);
+}
+.spades.seven {
+  background-image: url(./img/spades/seven.svg);
+}
+.diamonds.seven {
+  background-image: url(./img/diamonds/seven.svg);
+}
+.clubs.seven {
+  background-image: url(./img/clubs/seven.svg);
+}
+.hearts.seven {
+  background-image: url(./img/hearts/seven.svg);
+}
+.spades.eight {
+  background-image: url(./img/spades/eight.svg);
+}
+.diamonds.eight {
+  background-image: url(./img/diamonds/eight.svg);
+}
+.clubs.eight {
+  background-image: url(./img/clubs/eight.svg);
+}
+.hearts.eight {
+  background-image: url(./img/hearts/eight.svg);
+}
+.spades.nine {
+  background-image: url(./img/spades/nine.svg);
+}
+.diamonds.nine {
+  background-image: url(./img/diamonds/nine.svg);
+}
+.clubs.nine {
+  background-image: url(./img/clubs/nine.svg);
+}
+.hearts.nine {
+  background-image: url(./img/hearts/nine.svg);
+}
+.spades.ten {
+  background-image: url(./img/spades/ten.svg);
+}
+.diamonds.ten {
+  background-image: url(./img/diamonds/ten.svg);
+}
+.clubs.ten {
+  background-image: url(./img/clubs/ten.svg);
+}
+.hearts.ten {
+  background-image: url(./img/hearts/ten.svg);
+}
+.spades.j {
+  background-image: url(./img/spades/j.svg);
+}
+.diamonds.j {
+  background-image: url(./img/diamonds/j.svg);
+}
+.clubs.j {
+  background-image: url(./img/clubs/j.svg);
+}
+.hearts.j {
+  background-image: url(./img/hearts/j.svg);
+}
+.spades.q {
+  background-image: url(./img/spades/q.svg);
+}
+.diamonds.q {
+  background-image: url(./img/diamonds/q.svg);
+}
+.clubs.q {
+  background-image: url(./img/clubs/q.svg);
+}
+.hearts.q {
+  background-image: url(./img/hearts/q.svg);
+}
+.spades.k {
+  background-image: url(./img/spades/k.svg);
+}
+.diamonds.k {
+  background-image: url(./img/diamonds/k.svg);
+}
+.clubs.k {
+  background-image: url(./img/clubs/k.svg);
+}
+.hearts.k {
+  background-image: url(./img/hearts/k.svg);
+}
+.spades.a {
+  background-image: url(./img/spades/a.svg);
+}
+.diamonds.a {
+  background-image: url(./img/diamonds/a.svg);
+}
+.clubs.a {
+  background-image: url(./img/clubs/a.svg);
+}
+.hearts.a {
+  background-image: url(./img/hearts/a.svg);
 }

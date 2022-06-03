@@ -1,11 +1,13 @@
 function dealCards(){
     let arr = [];
-    const symbols = ["h", "s", "c", "d"];
-    for (let i = 1; i < count+1; i++){
+    const symbols = ["hearts", "spades", "clubs", "diamonds"];
+    const values = ["two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "j", "q", "k", "a"];
+    for (let i = 0; i < count; i++){
         for (let j = 0; j < 4; j++){
             const card = {
                 value: i,
-                symbol: symbols[j]
+                symbol: symbols[j],
+                high: values[i]
             }
             arr.push(card);
         }
