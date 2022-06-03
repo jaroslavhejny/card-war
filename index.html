@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+    <title>Card game</title>
+    <meta name="description" content="Card game">
+    <meta name="keywords" content="html tutorial template">
+    <script src="script.js"></script>
+    <script src="scripts/dealCards.js"></script>
+    <script src="scripts/listeners.js"></script>
+    <script src="scripts/drawNext.js"></script>
+    <script src="scripts/printNext.js"></script>
+    <script src="scripts/printPlayers.js"></script>
+    <script src="scripts/newDeal.js"></script>
+    <script src="scripts/isDraw.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="settings">
+            <button id="start">Start</button>
+            <button id="deal">Deal</button>
+            <button id="stop">STOP</button>
+            <input id="speed" placeholder="speed" value=2000 type="number">
+            <input id="count" placeholder="count" value=2 type="number">
+            <span id="rounds"></span>
+        </div>
+        <div class="players">
+            <p id="deck1"></p>
+            <p id="deck2"></p>
+        </div>
+        <div class="chosen">
+            <p id="chosen-p1"></p>
+            <p id="chosen-p2"></p>
+        </div>
+    </body>
+</html>
